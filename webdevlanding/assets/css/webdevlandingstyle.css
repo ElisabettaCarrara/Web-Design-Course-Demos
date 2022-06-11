@@ -1,0 +1,180 @@
+/*
+Font GLOBALE
+*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+Header Area
+*/
+
+body header {
+    background-color:yellow;
+    text-align:center;
+}
+
+body header img {
+width:15%;
+padding-top:50px;
+padding-bottom:50px;
+}
+
+/*
+Background color globale (x la leggibilità del testo)
+*/
+
+body {
+    background-color:black;
+}
+
+/*
+Immagini senza classe
+*/
+
+body main img {
+    text-align:center;
+    width:80%;
+    padding:10%;
+}
+
+/*
+Hero Area
+*/
+
+.hero {
+    background-color:black;
+    background-image:url("../img/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+Immagine rotonda
+*/
+
+.roundimg {
+        text-align:center;
+        display: block;
+        width:80%;
+        padding:10%;
+        border-radius:50%;
+}
+
+/*
+Stili Titoli, Paragrafi, Bottoni, Citazioni GENERICI
+*/
+
+body main div h1 {
+    text-align:center;
+    font-size:70px;
+    font-weight:bold;
+    color:red;
+    padding:10px;
+}
+
+body main div p {
+    text-align:center;
+    font-size:18px;
+    color:black;
+    background-color:#D2D4CE;
+}
+
+body main h1 {
+    text-align:center;
+    font-size:70px;
+    font-weight:bold;
+    padding:10px;
+    color:lightseagreen;
+}
+
+body main h2 {
+    text-align:center;
+    font-size:32px;
+    font-weight:bold;
+    padding:10px;
+    color:lightseagreen;
+}
+
+body main p {
+    text-align:center;
+    font-size:18px;
+    color:lightseagreen;
+}
+
+body footer h1 {
+    text-align:center;
+    font-size:70px;
+    font-weight:bold;
+    padding:10px;
+    color:black;
+}
+
+body footer address p {
+    text-align:center;
+    font-size:18px;
+    color:black;
+}
+
+/*
+Icone del footer
+*/
+
+footer address p a .icon {
+    color:black;
+    padding-right:10px;
+}
+
+/*
+Bottone
+*/
+
+body main div {
+    text-align:center;
+    padding:60px;
+}
+
+body main div button {
+    background-color:red;
+    color:yellow;
+    padding:25px 50px;
+    font-size:18px;
+}
+/*
+Aside
+*/
+
+body main aside {
+    background-color:red;
+    padding:20px;
+}
+
+body main aside h1 {
+    text-align:center;
+    font-size:70px;
+    font-weight:bold;
+    padding-bottom:10px;
+    color:yellow;
+}
+
+body main aside p {
+    text-align:center;
+    font-size:18px;
+    color:yellow;
+}
+
+/*
+Footer
+*/
+
+body footer {
+    background-color:yellow;
+    text-align:center;
+    color:black;
+    padding:10px;
+}
+
+body footer address {
+    font-style:normal;
+}
