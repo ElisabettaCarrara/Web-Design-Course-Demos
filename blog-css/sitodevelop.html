@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Blog Develop" />
+    <title>Blog Develop</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/sitodevelopstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="boxcarta">
+    <header>
+        <img src="./assets/images/logo.png" alt="logo">
+        <h1>WebDevs - Il Blog dei Developers</h1>
+    </header>
+    <nav>
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#articoli">Articoli</a></li>
+
+            <li><a href="#lavoraconnoi">Lavora con Noi</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+
+            <header>
+                <h1>Come creare un template per i post</h1>
+
+                <p>di Mario Rossi - <span>pubblicato il 25-11-2021</span></p>
+
+            </header>
+
+            <main>
+                <section>
+                    <p>
+                        La prima cosa da fare è suddividere in blocchi logici la pagina, separando le
+                        parti
+                        comuni a
+                        tutte le
+                        pagine da quelle
+                        specifiche
+                    </p>
+                    <h2>Le varie aree saranno quindi suddivise in:</h2>
+
+                    <ul>
+                        <li>Contenuti di intestazione del tag &lt;header&gt;</li>
+                        <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)</li>
+                        <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt; </li>
+                    </ul>
+                </section>
+
+                <Section>
+
+                    <h2>Formattazione del codice</h2>
+
+                    <p>
+                        Il testo dell'articolo dovrà essere formattato per identificare tutte le parti
+                        da
+                        selezionare con i CSS. Perciò i passi saranno:
+                    </p>
+
+                    <ul>
+                        <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il
+                            tag
+                            appropriato</li>
+                        <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso
+                        </li>
+                        <li>Applicare gli stili CSS</li>
+                    </ul>
+
+                </Section>
+
+                <Section>
+
+                    <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la
+                        diffusione
+                        pressoché totale</p>
+
+                    <table>
+
+                        <tr>
+                            <th>
+                                Anno
+                            </th>
+                            <th>
+                                &percnt; di utilizzo
+                            </th>
+                        </tr>
+
+
+                        <tr>
+                            <td>2000</td>
+                            <td>20&percnt;</td>
+                        </tr>
+                        <tr>
+                            <td>2002</td>
+                            <td>35&percnt;</td>
+                        </tr>
+                        <tr>
+                            <td>2004</td>
+                            <td>45&percnt;</td>
+                        </tr>
+                        <tr>
+                            <td>2008</td>
+                            <td>80&percnt;</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>100&percnt;</td>
+                        </tr>
+
+                    </table>
+
+                </Section>
+
+                <Section>
+
+                    <p>
+                        Un test di validazione potrà essere fatto tramite il <a href="#">tool online apposito</a>
+                    </p>
+
+                </Section>
+            </main>
+                <p>
+                    Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:
+                </p>
+
+                <form action="./assets/ricevi.php" method="GET">
+
+                    <label for="mail"></label><input type="email" id="mail" name="mail"
+                        placeholder="Inserisci il tuo indirizzo email" required>
+                    <button type="submit"><strong>Iscriviti alla Newsletter</strong></button></div>
+
+                </form>
+                <aside class="boxcarta">
+                    <h2>Articoli Correlati</h2>
+                    <div>
+                        <a href="#">Validare il codice HTML</a>
+
+                        <p>
+                            Categoria: develop
+                        </p>
+                        <p>
+                            Data: 18-9-2020
+                        </p>
+                    </div>
+                    <br />
+                    <div>
+
+                        <a href="#">Correggere la sintassi</a>
+
+                        <p>
+                            Categoria: develop
+                        </p>
+                        <p>
+                            Data: 16-9-2020
+                        </p>
+
+                    </div>
+                    <br />
+                    <div>
+
+                        <a href="#">Meno Kb nella pagina</a>
+
+                        <p>
+                            Categoria: ottimizzazione
+                        </p>
+                        <p>
+                            Data: 30-9-2020
+                        </p>
+                    </div>
+
+
+                </aside>
+        </article>
+    </main>
+    <footer>
+
+        <h1>
+            Blog Develop &copy;2020
+        </h1>
+        <p>
+            Testata online di Mario Rossi, registrata con n.213/2018
+        </p>
+        <address>
+            <p>
+                Sede: via Luigi Einaudi 2 - Milano
+                <a href="mailto:info@blogdevelop.it">Inviaci una e-mail!</a>
+            </p>
+        </address>
+
+    </footer>
+</div>
+</body>
+
+</html>

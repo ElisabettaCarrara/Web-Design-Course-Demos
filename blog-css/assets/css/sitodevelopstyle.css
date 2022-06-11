@@ -1,0 +1,201 @@
+/*
+Imposto il font per tutto il documento
+*/
+
+* {
+    font-family: 'Merriweather', serif;
+}
+
+/*
+Imposto un background per il sito
+con immagine che si ripete nel body
+in modo che sia visibile dietro a tutto il contenuto
+*/
+
+body {
+    background-color:lightgrey;
+    padding:10%;
+}
+
+.boxcarta {
+    width:1200x;
+    padding:10%;
+    background-image:url("../images/wrinkledwhite.jpg");
+    
+}
+
+/*
+Site identity
+*/
+
+body header img {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+}
+body header {
+    text-align:center;
+}
+body header h1 {
+    text-transform:uppercase;
+    font-size:18px;
+}
+
+/*
+Nav Menu
+*/
+body nav {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+body nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#383e42;
+  }
+  
+  body nav ul li {
+    float:left;
+  }
+  
+  body nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  /* Change the link text color to yellow on hover */
+  body nav ul li a:hover {
+    color:yellow;
+  }
+
+/*
+Stili Titoli e Paragrafi in main
+*/
+
+body main article section p {
+    text-align:left;
+    font-weight:lighter;
+}
+
+body main article header h1 {
+    text-align:left;
+    font-size:30px;
+    font-weight:bold;
+    text-transform:capitalize;
+}
+body main article header p {
+    text-align:left;
+    font-style:italic;
+    padding-left: 1.5em;
+}
+body main article header p span {
+    color:lightslategray;
+}
+
+/*
+Tabella
+*/
+
+main article main section table {
+    border: 3px solid #383e42;
+    border-radius:20px;
+    background-color:#383e42;
+}
+
+main article main section table tr th, td {
+    padding:15px;
+    text-align:center;
+}
+
+main article main section table tr th {
+color:yellow;
+}
+
+main article main section table tr td {
+    color:white;
+}
+
+/*
+Form di iscrizione alla newsletter
+*/
+
+body p {
+    font-size:16px;
+    font-style:italic;
+    text-align:center;
+    font-weight:bold;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+body form {
+    border: 20px solid lightsteelblue;
+    background-color:lightsteelblue;
+}
+
+body form button {
+    background-color:#383e42;
+    color:white;
+    text-transform:uppercase;
+    padding:5px;
+}
+
+/*
+Articoli Correlati
+*/
+
+body aside div {
+    padding:10px;
+    border: 1px solid #383e42;
+    background-color:lightgray;
+}
+
+body aside div a {
+    font-size:16px;
+    text-align:left;
+}
+
+body aside div p {
+    font-size:16px;
+    text-align:left;
+    font-weight:lighter;
+}
+
+/*
+Footer
+*/
+body footer {
+    padding:10%;
+    background-color:#383e42;
+}
+body footer h1 {
+    text-align:center;
+    padding-top:20px;
+    font-size:20px;
+    color:white;
+}
+
+body footer p {
+    text-align:center;
+    font-size:16px;
+    color:white;
+    font-weight:lighter;
+}
+
+body footer a:link {
+    color:white;
+}
+body footer a:visited {
+    color:red;
+}
+body footer a:hoover {
+    color:yellow;
+}
+body footer a:active {
+    color:fuchsia;
+}
