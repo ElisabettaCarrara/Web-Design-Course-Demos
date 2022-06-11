@@ -1,0 +1,76 @@
+body header h1 {
+    font-size:32px;
+    font-weight:bold;
+    text-align:center;
+}
+body header h2 {
+    font-size:22px;
+    color:blue;
+    text-align:center;
+}
+
+body header div {
+    background-color:aquamarine;
+    border-bottom-style:solid;
+    border-bottom-color:blue;
+    border-bottom-width:5px;
+}
+    body main section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        border-radius:50%;
+        border-style:solid;
+        border-width:5px;
+        border-color:blue;
+    }
+body main section h2 {
+    text-align:center;
+}
+
+.conoscenze-tecniche {
+    background-color:aqua;
+}
+
+.conoscenze-operative {
+    background-color:coral;
+}
+
+body footer {
+    background-color:blue;
+  }
+
+body footer aside p {
+    font-weight:bold;
+    color:blue;
+    font-style:italic;
+}
+body footer h2 {
+    color:whitesmoke;
+    text-align:center;
+}
+
+body footer address {
+    text-align:center;
+  }
+
+body footer address a:link{
+    color:whitesmoke;
+  }
+
+body footer address a:visited {
+    color:red;
+  }
+  
+body footer address  a:hover {
+    color:yellow;
+  }
+
+body footer address a:active {
+    color:orange;
+  }
+body footer p {
+    color:whitesmoke;
+    text-align:center;
+}
