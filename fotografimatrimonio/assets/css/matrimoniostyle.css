@@ -1,0 +1,78 @@
+/*
+Imposto il font globale
+*/
+
+* {
+    font-family: 'Patrick Hand', cursive;
+}
+
+/*
+Imposto lo stile del logo e della sezione header
+*/
+
+.backgroundid {
+    background-color:darksalmon;
+    text-align:center;
+}
+
+body header img {
+    padding-bottom:10px;
+    padding-top:10px;
+    max-width:8%;
+}
+
+body header h1 {
+    font-size:40px;
+    font-weight:bold;
+    color:whitesmoke;
+    padding:0px;
+    margin:0px;
+}
+body header p {
+    font-size:28px;
+    color:whitesmoke;
+    padding:15px;
+    margin:0px;
+}
+
+/*
+Imposto gli stili per il form
+*/
+
+.bg {
+    background-image:url(../img/flower-4985011_1920.png);
+    background-size:cover;
+    width:100%;
+}
+
+.bgform {
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    background-color:lightgoldenrodyellow;
+    text-align:center;
+}
+
+.titoli {
+    font-size:30px;
+    font-weight:bold;
+    color:brown;
+}
+
+body div form fieldset div {
+    font-size:25px;
+    font-weight:normal;
+    color:brown;
+    padding:5px;
+}
+
+.preventivo {
+    background-color:brown;
+    color:lightgoldenrodyellow;
+    padding:20px 50px;
+    margin-top:80px;
+    margin-bottom:80px;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/matrimoniostyle.css">
+    <script src="./assets/js/matrimonio.js"></script>
+    <title>Studio Fotografico Heart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./assets/js/matrimonio.js"></script>
+</head>
+
+<body>
+    <header class="backgroundid">
+
+        <img src="./assets/img/cuore.png">
+        <h1>
+            Heart
+        </h1>
+        <p>
+            Studio di Fotografia per Matrimoni
+        </p>
+
+    </header>
+    <div id="inner" class="bg">
+        <form action="ricevi.php" method="GET" class="bgform">
+            <fieldset>
+                <h2 class="titoli">Dati Evento:</h2>
+                <div>
+                    <label for="data">Indica la data dell'evento:</label><br />
+                    <input type="text" id="data" name="data" required>
+                </div>
+                <h2 class="titoli">Seleziona la location tra quelle proposte.<br />
+                    Puoi selezionare una sola opzione fra quelle indicate.
+                </h2>
+                <div>
+                    <input type="radio" id="roma" name="location" value="roma" required>
+                    <label for="location">Roma</label>
+                </div>
+                <div>
+                    <input type="radio" id="frosinone" name="location" value="frosinone" required>
+                    <label for="location">Frosinone</label>
+                </div>
+                <div>
+                    <input type="radio" id="latina" name="location" value="latina" required>
+                    <label for="location">Latina</label>
+                </div>
+                <div>
+                    <input type="radio" id="viterbo" name="location" value="viterbo" required>
+                    <label for="location">Viterbo</label>
+                </div>
+                <div>
+                    <input type="radio" id="rieti" name="location" value="rieti" required>
+                    <label for="location">Rieti</label>
+                </div>
+                <div>
+                    <label for="indirizzoposta">
+                        <h2 class="titoli">E-mail:</h2>
+                    </label>
+                    <input type="email" id="indirizzoposta" name="indirizzoposta" required>
+                </div>
+                <div>
+                    <label for="telefono">
+                        <h2 class="titoli">Telefono</h2>
+                    </label>
+                    <input type="text" id="telefono" name="telefono" required>
+                </div>
+
+                <h2 class="titoli">
+                    Servizi:
+                </h2>
+                <div>
+                    <input type="checkbox" id="opzione1" name="opzione1" value="Servizio Fotografico">
+                    <label for="opzione1"> Servizio Fotografico</label><br />
+                    <input type="checkbox" id="opzione2" name="opzione2" value="Servizio Video">
+                    <label for="opzione2"> Servizio Video</label><br />
+                </div>
+
+                <h2 class="titoli">
+                    Servizi Fotografici Aggiuntivi:
+                </h2>
+                <div>
+                    <input type="checkbox" id="opzione3" name="opzione3" value="Casa Sposa">
+                    <label for="opzione3"> Casa Sposa</label><br />
+                    <input type="checkbox" id="opzione4" name="opzione4" value="Casa Sposo">
+                    <label for="opzione4"> Casa Sposo</label><br />
+                    <input type="checkbox" id="opzione5" name="opzione5" value="Cerimonia ed esterni">
+                    <label for="opzione5"> Cerimonia ed Esterni</label><br />
+                    <input type="checkbox" id="opzione6" name="opzione6" value="Ricevimento">
+                    <label for="opzione6"> Ricevimento</label><br />
+                </div>
+                <h2 class="titoli">
+                    Servizi Video Aggiuntivi:
+                </h2>
+                <div>
+                    <input type="checkbox" id="opzione7" name="opzione7" value="Casa Sposa">
+                    <label for="opzione7"> Casa Sposa</label><br />
+                    <input type="checkbox" id="opzione8" name="opzione8" value="Casa Sposo">
+                    <label for="opzione8"> Casa Sposo</label><br />
+                    <input type="checkbox" id="opzione9" name="opzione9" value="Cerimonia ed esterni">
+                    <label for="opzione9"> Cerimonia ed Esterni</label><br />
+                    <input type="checkbox" id="opzione10" name="opzione10" value="Ricevimento">
+                    <label for="opzione10"> Ricevimento</label><br />
+                    <input type="checkbox" id="opzione11" name="opzione11" value="Prematrimoniale">
+                    <label for="opzione11"> Prematrimoniale</label><br />
+                    <input type="checkbox" id="opzione12" name="opzione12" value="Wedding Live Video">
+                    <label for="opzione12"> Wedding Live Video</label><br />
+                </div>
+                <h2 class="titoli">Servizi di Stampa:</h2>
+                <div>
+                    <input type="checkbox" id="opzione13" name="opzione13" value="Fotolibro">
+                    <label for="opzione13"> Fotolibro</label><br />
+                    <input type="checkbox" id="opzione14" name="opzione14" value="Libro Tradizionale">
+                    <label for="opzione14"> Libro Tradizionale</label><br />
+                </div>
+                <button type="button" class="preventivo" onclick="CalcolaPreventivo()">Calcola
+                    Preventivo!</button>
+    </div>
+    </fieldset>
+    </form>
+    </div>
+
+</body>
+
+</html>
