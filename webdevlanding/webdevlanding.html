@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
@@ -17,6 +19,10 @@
         <img src="./assets/img/logo.png" alt="logo">
     </header>
     <main>
+        <!--
+    Hero image with button tutta larghezza
+-->
+
         <div class="hero">
             <h1>
                 Corso Web Developper
@@ -25,68 +31,99 @@
                 Smetti di inseguire i titoli, inizia a lavorare. Mentre tutti vogliono arricchire il CV, tu pensa ad
                 arricchire le tue competenze.
             </p>
+            <!--
+                modificare bottone con un div?
+            -->
             <button type="button">PARTIAMO!</button>
         </div>
-        <h2>
-            Tutti ti cercheranno
-        </h2>
-        <p>
-            Sono 30.000 in Italia le posizioni di developper scoperte, scegli quella che ti stimola di più.
-        </p>
-        <h2>
-            Lavora dove vuoi
-        </h2>
-        <p>
-            Lavora da casa, in riva al mare o in montagna.
-        </p>
+        <!--
+    sezione container per colonne (testo+immagine tonda+testo)
+-->
+        <section class="containercolumn">
+            <div class=column>
+                <h2>
+                    Tutti ti cercheranno
+                </h2>
+                <p>
+                    Sono 30.000 in Italia le posizioni di developper scoperte, scegli quella che ti stimola di più.
+                </p>
+                <h2>
+                    Lavora dove vuoi
+                </h2>
+                <p>
+                    Lavora da casa, in riva al mare o in montagna.
+                </p>
+            </div>
+            
+                <img src="./assets/img/girllaptop1.jpeg" class="roundimg" alt="studentessa con laptop">
 
+            <div class="column">
+                <h2>
+                    Scegli il tuo ruolo
+                </h2>
+                <p>
+                    Potrai scegliere se essere Azienda, Freelance o Startup.
+                </p>
+                <h2>
+                    Lavoro in libertà
+                </h2>
+                <p>
+                    Non serve lavorare in ufficio per essere creatori di prodotti digitali
+                </p>
+            </div>
+        </section>
 
-        <img src="./assets/img/girllaptop1.jpeg" class="roundimg" alt="studentessa con laptop">
+        <!--
+    Sezione con citazione - tutta larghezza
+-->
 
-        <h2>
-            Scegli il tuo ruolo
-        </h2>
-        <p>
-            Potrai scegliere se essere Azienda, Freelance o Startup.
-        </p>
-        <h2>
-            Lavoro in libertà
-        </h2>
-        <p>
-            Non serve lavorare in ufficio per essere creatori di prodotti digitali
-        </p>
-        <aside>
-            <h1>
+        <section class="quote">
+            <h1 class="titoloq">
                 ByteCode garantisce
             </h1>
-            <p>
+            <p class="paragrafoq">
                 "Tre mesi intensivi di corso che cambieranno radicalmente la tua vita."
             </p>
-            <p>
-                Mario Rossi, CEO ByteCode
+            <p class="paragrafoq">
+                Mario Rossi,<br /> CEO ByteCode
             </p>
-        </aside>
-        <img src="./assets/img/laptopviola.jpeg" alt="laptop viola">
-        <h2>
-            Il tuo PC
-        </h2>
-        <p>
-            Se vuoi diventare developper, è l'unico strumento di cui hai bisogno.
-        </p>
-        <img src="./assets/img/laptopwhite.jpeg" alt="laptop bianco">
-        <h2>
-            Impara ora
-        </h2>
-        <p>
-            Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro.
-        </p>
-        <img src="./assets/img/womanlaptop.jpeg" alt="donna con laptop">
-        <h2>
-            Lavora Subito
-        </h2>
-        <p>
-            Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.
-        </p>
+        </section>
+
+        <!--
+    sezione container per box (tre immagine+testo affiancati)
+-->
+
+        <section class="containerbox">
+            <div class="box">
+                <img src="./assets/img/laptopviola.jpeg" alt="laptop viola" class="imgbox">
+                <h2>
+                    Il tuo PC
+                </h2>
+                <p>
+                    Se vuoi diventare developper, è l'unico strumento di cui hai bisogno.
+                </p>
+            </div>
+            <div class="box">
+                <img src="./assets/img/laptopwhite.jpeg" alt="laptop bianco" class="imgbox">
+                <h2>
+                    Impara ora
+                </h2>
+                <p>
+                    Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/img/womanlaptop.jpeg" alt="donna con laptop" class="imgbox">
+                <h2>
+                    Lavora Subito
+                </h2>
+                <p>
+                    Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.
+                </p>
+            </div>
+        </section>
+
     </main>
     <footer>
         <h1>
@@ -94,9 +131,15 @@
         </h1>
         <address>
             <p>
-                <a href="tel:+3911223456"><ion-icon name="call" class="icon"></ion-icon>(+39)11223456</a><br />
-                <a href="mailto:info@ByteCode.school"><ion-icon name="at-circle" class="icon"></ion-icon>info@ByteCode.school</a><br>
-                <a href="https://goo.gl/maps/zEz7rLNhWS5v8mhF7"><ion-icon name="mail" class="icon"></ion-icon>Via Appia, 1 - 00100 Roma (RM)</a>
+                <a href="tel:+3911223456">
+                    <ion-icon name="call" class="icon"></ion-icon>(+39)11223456
+                </a><br />
+                <a href="mailto:info@ByteCode.school">
+                    <ion-icon name="at-circle" class="icon"></ion-icon>info@ByteCode.school
+                </a><br>
+                <a href="https://goo.gl/maps/zEz7rLNhWS5v8mhF7">
+                    <ion-icon name="mail" class="icon"></ion-icon>Via Appia, 1 - 00100 Roma (RM)
+                </a>
             </p>
         </address>
         <p>
